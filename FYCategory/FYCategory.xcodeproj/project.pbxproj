@@ -18,6 +18,7 @@
 		1EBA24CE223B44520086844E /* UIView+cornerRadious.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBA24CD223B44520086844E /* UIView+cornerRadious.m */; };
 		1EBA24D2223B49890086844E /* UIButton+imageTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBA24D1223B49890086844E /* UIButton+imageTitle.m */; };
 		1EBA24D5223B4B5A0086844E /* UIView+FYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBA24D3223B4B5A0086844E /* UIView+FYExtension.m */; };
+		21FD60DC2282751F00A2186D /* UIColor+FYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FD60DA2282751F00A2186D /* UIColor+FYColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		1EBA24D1223B49890086844E /* UIButton+imageTitle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+imageTitle.m"; sourceTree = "<group>"; };
 		1EBA24D3223B4B5A0086844E /* UIView+FYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FYExtension.m"; sourceTree = "<group>"; };
 		1EBA24D4223B4B5A0086844E /* UIView+FYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYExtension.h"; sourceTree = "<group>"; };
+		21FD60DA2282751F00A2186D /* UIColor+FYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FYColor.m"; sourceTree = "<group>"; };
+		21FD60DB2282751F00A2186D /* UIColor+FYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FYColor.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,7 @@
 		1EBA24CA223B43FD0086844E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				21FD60D9228274DC00A2186D /* UIColor */,
 				1EBA24CF223B49550086844E /* UIButton */,
 				1EBA24CB223B44060086844E /* UIView */,
 			);
@@ -169,6 +173,15 @@
 				1EBA24D1223B49890086844E /* UIButton+imageTitle.m */,
 			);
 			path = UIButton;
+			sourceTree = "<group>";
+		};
+		21FD60D9228274DC00A2186D /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				21FD60DB2282751F00A2186D /* UIColor+FYColor.h */,
+				21FD60DA2282751F00A2186D /* UIColor+FYColor.m */,
+			);
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +318,7 @@
 				1EBA24D5223B4B5A0086844E /* UIView+FYExtension.m in Sources */,
 				1EBA24D2223B49890086844E /* UIButton+imageTitle.m in Sources */,
 				1EBA24CE223B44520086844E /* UIView+cornerRadious.m in Sources */,
+				21FD60DC2282751F00A2186D /* UIColor+FYColor.m in Sources */,
 				1EBA24A8223B43F40086844E /* main.m in Sources */,
 				1EBA249A223B43F20086844E /* AppDelegate.m in Sources */,
 			);
