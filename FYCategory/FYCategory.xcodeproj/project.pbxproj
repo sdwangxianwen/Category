@@ -18,6 +18,7 @@
 		1EBA24CE223B44520086844E /* UIView+cornerRadious.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBA24CD223B44520086844E /* UIView+cornerRadious.m */; };
 		1EBA24D2223B49890086844E /* UIButton+imageTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBA24D1223B49890086844E /* UIButton+imageTitle.m */; };
 		1EBA24D5223B4B5A0086844E /* UIView+FYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBA24D3223B4B5A0086844E /* UIView+FYExtension.m */; };
+		1ECFB940229A661800273535 /* UIView+BSAdaptScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFB93F229A661800273535 /* UIView+BSAdaptScreen.m */; };
 		21FD60DC2282751F00A2186D /* UIColor+FYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FD60DA2282751F00A2186D /* UIColor+FYColor.m */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,8 @@
 		1EBA24D1223B49890086844E /* UIButton+imageTitle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+imageTitle.m"; sourceTree = "<group>"; };
 		1EBA24D3223B4B5A0086844E /* UIView+FYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FYExtension.m"; sourceTree = "<group>"; };
 		1EBA24D4223B4B5A0086844E /* UIView+FYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYExtension.h"; sourceTree = "<group>"; };
+		1ECFB93E229A661700273535 /* UIView+BSAdaptScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BSAdaptScreen.h"; sourceTree = "<group>"; };
+		1ECFB93F229A661800273535 /* UIView+BSAdaptScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSAdaptScreen.m"; sourceTree = "<group>"; };
 		21FD60DA2282751F00A2186D /* UIColor+FYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FYColor.m"; sourceTree = "<group>"; };
 		21FD60DB2282751F00A2186D /* UIColor+FYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FYColor.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +161,8 @@
 		1EBA24CB223B44060086844E /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				1ECFB93E229A661700273535 /* UIView+BSAdaptScreen.h */,
+				1ECFB93F229A661800273535 /* UIView+BSAdaptScreen.m */,
 				1EBA24D4223B4B5A0086844E /* UIView+FYExtension.h */,
 				1EBA24D3223B4B5A0086844E /* UIView+FYExtension.m */,
 				1EBA24CC223B44520086844E /* UIView+cornerRadious.h */,
@@ -318,6 +323,7 @@
 				1EBA24D5223B4B5A0086844E /* UIView+FYExtension.m in Sources */,
 				1EBA24D2223B49890086844E /* UIButton+imageTitle.m in Sources */,
 				1EBA24CE223B44520086844E /* UIView+cornerRadious.m in Sources */,
+				1ECFB940229A661800273535 /* UIView+BSAdaptScreen.m in Sources */,
 				21FD60DC2282751F00A2186D /* UIColor+FYColor.m in Sources */,
 				1EBA24A8223B43F40086844E /* main.m in Sources */,
 				1EBA249A223B43F20086844E /* AppDelegate.m in Sources */,
